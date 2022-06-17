@@ -51,6 +51,11 @@
 </head>
 
 <body id="home">
+
+  <script>
+    dataLayer = [];
+  </script>
+
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DTMJ7N"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -104,7 +109,7 @@
             magna aliqua. Ut enim ad minim veniam
           </p>
           <div class="hero_btn-continer">
-            <a href="" class="call_to-btn btn_white-border">
+            <a href="" class="call_to-btn btn_white-border" onclick="dataLayer.push({'event':'call-for-action'});">
               ACTION
             </a>
           </div>
